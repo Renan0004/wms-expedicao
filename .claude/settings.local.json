@@ -23,7 +23,14 @@
       "Bash(git branch:*)",
       "Bash(git push:*)",
       "Bash(\"C:\\flutter\\flutter-git\\bin\\flutter.bat\" build web)",
-      "Bash(git commit -m \"$(cat <<''EOF''\nAdd Vercel deployment configuration\n\n- Flutter web build files\n- vercel.json with proper routing\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd Vercel deployment configuration\n\n- Flutter web build files\n- vercel.json with proper routing\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git commit -m \"$(cat <<''EOF''\nFix Vercel deployment - use pre-built files\n\nRemove Flutter build command from Vercel config\nsince Flutter is not available in Vercel environment.\nUse pre-built files from flutter_app/build/web instead.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd Flutter web build files for Vercel deployment\n\nInclude pre-built Flutter web files in repository\nto enable deployment on Vercel without Flutter SDK.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(\"C:\\flutter\\flutter-git\\bin\\flutter.bat\" clean)",
+      "Bash(\"C:\\flutter\\flutter-git\\bin\\flutter.bat\" build web --release --web-renderer canvaskit)",
+      "Bash(\"C:\\flutter\\flutter-git\\bin\\flutter.bat\" build web --release)",
+      "Bash(git commit:*)",
+      "Bash(\"C:\\flutter\\flutter-git\\bin\\flutter.bat\" build web --release --base-href /)"
     ],
     "deny": [],
     "ask": []
