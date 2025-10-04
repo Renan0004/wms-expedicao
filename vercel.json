@@ -1,6 +1,5 @@
 {
-  "version": 2,
-  "buildCommand": "cd flutter_app && flutter build web",
+  "buildCommand": "echo 'Using pre-built files'",
   "outputDirectory": "flutter_app/build/web",
   "routes": [
     {
