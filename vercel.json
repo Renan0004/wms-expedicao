@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "cd flutter_app && flutter build web",
+  "outputDirectory": "flutter_app/build/web",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}

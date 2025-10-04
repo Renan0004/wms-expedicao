@@ -17,7 +17,13 @@
       "Bash(\"C:\\flutter\\flutter-git\\bin\\flutter.bat\" create . --platforms=web)",
       "Bash(C:flutterflutter-gitbinflutter.bat attach --device-id=chrome)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: WMS/TMS Shipment Management System\n\nSistema de Gestão de Expedição desenvolvido em Flutter\n- UI responsiva (mobile e desktop)\n- Filtros múltiplos (status, prioridade, transportadora)\n- Sistema de busca em tempo real\n- Ações rápidas (expedir, reter pedidos)\n- Indicadores de prioridade\n- Modal de detalhes dos pedidos\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git remote add:*)",
+      "Bash(git branch:*)",
+      "Bash(git push:*)",
+      "Bash(\"C:\\flutter\\flutter-git\\bin\\flutter.bat\" build web)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nAdd Vercel deployment configuration\n\n- Flutter web build files\n- vercel.json with proper routing\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")"
     ],
     "deny": [],
     "ask": []
