@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir)",
+      "Bash(flutter:*)",
+      "Bash(where flutter)",
+      "Bash(C:flutterflutter_windows_3.35.5-stableflutterbinflutter.bat --version)",
+      "Bash(\"C:\\flutter\\flutter_windows_3.35.5-stable\\flutter\\bin\\flutter.bat\" --version)",
+      "Bash(git --version)",
+      "Bash(dir:*)",
+      "Bash(git clone:*)",
+      "Bash(C:flutterflutter-gitbinflutter.bat --version)",
+      "Bash(\"C:\\flutter\\flutter-git\\bin\\flutter.bat\" doctor)",
+      "Bash(\"C:\\flutter\\flutter-git\\bin\\flutter.bat\" pub get)",
+      "Bash(find:*)",
+      "Bash(\"C:\\flutter\\flutter-git\\bin\\flutter.bat\" run -d chrome)",
+      "Bash(\"C:\\flutter\\flutter-git\\bin\\flutter.bat\" create . --platforms=web)",
+      "Bash(C:flutterflutter-gitbinflutter.bat attach --device-id=chrome)",
+      "Bash(git init:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
